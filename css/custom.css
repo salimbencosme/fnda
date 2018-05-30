@@ -1,0 +1,73 @@
+.bg-primary {
+    background-color: #4f6db2 !important;
+}
+
+
+.btn-dark{
+    color: #fff;
+    background-color: #2b3566;
+    border-color: #4f6db2;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #4f6db2;
+    border-color: #2b3566;
+}
+
+.service-icon {
+    background-color: #fff;
+    color: #2b3566;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+}
+.btn-primary {
+    background-color: #2b3566!important;
+    border-color: #2b3566!important;
+    color: #fff!important;
+}
+
+footer.footer .social-link {
+    background-color: #4f6db2;
+    text-decoration: none;
+}
+
+footer.footer .social-link:hover {
+    background-color: #2b3566;
+    text-decoration: none;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -ms-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    transform: translateX(250px);
+    background: #506db2;
+    border-left: 1px solid rgba(255,255,255,.1);
+}
+
+
+.menu-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgb(41, 55, 99);
+    line-height: 50px;
+    z-index: 999;
+}
+
